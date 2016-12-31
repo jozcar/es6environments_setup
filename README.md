@@ -6,6 +6,7 @@ http://www.programwitherik.com/understanding-the-babel-compiler-2016/
 
 //Setting up using only NPM
 
+0. create your directory, then inside your directory execute steps 1 to 3.
 1. npm init  [just select the defaults]
 2. npm install --save-dev babel-cli
 3. npm install --save-dev babel-preset-es2015
