@@ -4,7 +4,7 @@ Show how to set up a ES6 environment using npm,webpack,systemjs, etc...
 Usefull links..
 http://www.programwitherik.com/understanding-the-babel-compiler-2016/
 
-//Setting up using only NPM
+//Setting up using only NPM, this set up is good, if your development environment is not using any type of module loader
 
 0. create your working directory, then inside your directory execute steps 1 to 3.
 1. npm init  [just select the defaults]
@@ -21,6 +21,8 @@ http://www.programwitherik.com/understanding-the-babel-compiler-2016/
 8. transpile it by using this command npm run build
 9. check your lib folder, and you will see the es5 transpile version.  to test this, create and index.html page, and reference the js file from the lib directory.
   
-10. You can add the 'watch' argurment to your build statement just after lib as follow:  "build": "babel src -d lib --watch", this will watch any file you create on your src folder, and will transpile it an put it into your lib folder.
+10. You can add the 'watch' argurment to your build statement just after lib as follow:  "build": "babel src -d lib --watch", this will watch any file or folder that you create in the src folder, and will transpile it an put it into your lib folder.
 
-//Setting up using Webpack 
+//Setting es6 up using Webpack, this set up is for case where you want to used the new "import" module of e6, or if you wish to load js files using webpack.
+
+
