@@ -6,7 +6,7 @@ http://www.programwitherik.com/understanding-the-babel-compiler-2016/
 
 //Setting up using only NPM, this set up is good, if your development environment is not using any type of module loader
 
-0. create your working directory, then inside your directory execute steps 1 to 3.
+0. create your working directory, then inside your directory execute/run steps 1 to 3.
 1. npm init  [just select the defaults]
 2. npm install --save-dev babel-cli
 3. npm install --save-dev babel-preset-es2015
@@ -26,3 +26,11 @@ http://www.programwitherik.com/understanding-the-babel-compiler-2016/
 //Setting es6 up using Webpack, this set up is for case where you want to used the new "import" module of e6, or if you wish to load js files using webpack.
 
 
+ 0. Create your working directory, then inside your directory execute/run steps 1 to 3.
+ 1. npm init [just select the defaults]
+ 2. npm install --save-dev babel-cli
+ 3. npm i babel-preset-es2015 --save-dev
+ 4. npm i babel-loader --save-dev
+ 5. npm i webpack --save-dev or npm i webpack -g  I find that installing it globally is fine, 
+ 6. create a webpack.config.js file here is very basic template. 
+ 
