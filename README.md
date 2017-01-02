@@ -32,5 +32,19 @@ http://www.programwitherik.com/understanding-the-babel-compiler-2016/
  3. npm i babel-preset-es2015 --save-dev
  4. npm i babel-loader --save-dev
  5. npm i webpack --save-dev or npm i webpack -g  I find that installing it globally is fine, 
- 6. create a webpack.config.js file here is very basic template. 
+ 6. create a webpack.config.js file here is very basic configuration template, 
+ 
+ ## 
+ module.exports = {
+    entry: './scripts.js',
+    output: { filename: 'bundle.js'},
+    module:{
+        loaders: [
+            {test: /\.js?/,loader: 'babel-loader', exclude: /node_modules/}
+        ]
+    },
+     query: {
+        presets: ['es2015'],
+      }
+}
  
