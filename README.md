@@ -47,4 +47,6 @@ http://www.programwitherik.com/understanding-the-babel-compiler-2016/
         presets: ['es2015'],
       }
 }
+
+ 7. If you are planning to use react then install the react preset as follow: npm i babel-preset-react --save-dev
  
