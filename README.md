@@ -28,9 +28,9 @@ http://www.programwitherik.com/understanding-the-babel-compiler-2016/
 
  0. Create your working directory, then inside your directory execute/run steps 1 to 3.
  1. npm init [just select the defaults]
- 2. npm install --save-dev babel-cli
+ 2. npm install --save-dev babel-cli ?
  3. npm i babel-preset-es2015 --save-dev
- 4. npm i babel-loader --save-dev
+ 4. npm i babel-loader babel-core --save-dev
  5. npm i webpack --save-dev or npm i webpack -g  I find that installing it globally is fine, 
  6. create a webpack.config.js file here is very basic configuration template, 
  
