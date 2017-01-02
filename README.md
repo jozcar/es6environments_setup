@@ -49,4 +49,5 @@ http://www.programwitherik.com/understanding-the-babel-compiler-2016/
 }
 
  7. If you are planning to use react then install the react preset as follow: npm i babel-preset-react --save-dev
+ 8. and install the react framework as follow: npm i react react-dom --save-dev
  
