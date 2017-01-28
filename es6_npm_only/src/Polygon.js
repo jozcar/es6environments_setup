@@ -13,6 +13,6 @@ class Polygon {
   }
 }
 
-const square = new Polygon(10, 10);
+const square = new Polygon(70, 50);
 
 console.log(square.area);
