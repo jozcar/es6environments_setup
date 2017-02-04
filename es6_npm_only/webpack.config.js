@@ -6,8 +6,10 @@ var CommonsChunkPlugin = require('./node_modules/webpack/lib/optimize/CommonsChu
 module.exports = { 
     entry: {
         about: './src/about',
-        contact: './src/contact'
+        contact: './src/contact',
+        index: './src/index'
     }, 
+    devtool: "source-map",
     output: {
         path: path.join(__dirname,'build'), // both statements, creates a generic output, by creating a unique bundle, the [name].bundle
         filename: '[name].bundle.js'        // is replace by the values of the entry points.  so for this configuration, the following files 
