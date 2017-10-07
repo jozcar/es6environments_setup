@@ -5,8 +5,8 @@ var CommonsChunkPlugin = require('./node_modules/webpack/lib/optimize/CommonsChu
 
 module.exports = { 
     entry: {
-        about: './dist/about',
-        contact: './dist/contact',
+        about: './src/about', 
+        contact: './src/contact',
         vendor: ['react','react-dom']
     }, 
     output: {
@@ -34,6 +34,6 @@ module.exports = {
         ] 
     } ,
     plugins: [
-        new CommonsChunkPlugin('vendor','vendor.bundle.js')  //this is nessary to include when bundling vendor code.
+        new CommonsChunkPlugin({ name: 'vendor', filename: 'vendor.bundle.js' })  //this is nessary to include when bundling vendor code.
     ]
 }
