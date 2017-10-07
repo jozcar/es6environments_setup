@@ -31,7 +31,7 @@ http://www.programwitherik.com/understanding-the-babel-compiler-2016/
  2. npm install --save-dev babel-cli ?
  3. npm i babel-preset-es2015 --save-dev
  4. npm i babel-loader babel-core --save-dev
- 5. npm i webpack --save-dev or npm i webpack -g  I find that installing it globally is fine, 
+ 5. npm i webpack --save-dev , it is recommended not to install it globaly
  6. create a webpack.config.js file here is very basic configuration template, 
  
  ## 
