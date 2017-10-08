@@ -4,6 +4,9 @@ Show how to set up a ES6 environment using npm,webpack,systemjs, etc...
 # If all you need is the npm modules
 npm i react react-dom --save-dev
 npm i babel-loader babel-core babel-preset-es2015 babel-preset-react --save-dev
+#then create the .babelrc in the root of the app
+echo { "presets": ["es2015"] } > .babelrc
+ 
 
 Usefull links..
 http://www.programwitherik.com/understanding-the-babel-compiler-2016/
