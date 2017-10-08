@@ -6,6 +6,7 @@ Show how to set up a ES6 environment using npm,webpack,systemjs, etc...
 2. npm i babel-loader babel-core babel-preset-es2015 babel-preset-react --save-dev
 3. then create the .babelrc in the root of the app <br>
 echo { "presets": ["es2015"] } > .babelrc
+4. create webpack.config.js file in root directory , you can copy and paste from here https://github.com/jozcar/es6environments_setup/blob/master/webpack.config.js
  
 
 Usefull links..
